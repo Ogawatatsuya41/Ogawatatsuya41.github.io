@@ -1,41 +1,91 @@
+/* 全体のスタイル */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.8;
+    background-color: #f8f9fa;
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 
+/* ヘッダー */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px;
     text-align: center;
+    border-bottom: 5px solid #2575fc;
 }
 
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* セクション */
 section {
-    background-color: #fff;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
 }
 
 h2 {
     color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
 }
 
+/* プロフィール */
 .profile {
     display: flex;
     align-items: center;
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     margin-right: 20px;
+    object-fit: cover;
 }
+
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* リスト */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f0f4f8;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: #555;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
 
 p {
     margin: 0;
